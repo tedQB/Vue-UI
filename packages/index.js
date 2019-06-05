@@ -2,7 +2,7 @@ import Skeleton from './skeleton/index'
 import WCol from './col/index'
 import WRow from './row/index'
 import WButton from './button/index'
-import WTag from './button/index'
+import WTag from './tag/index'
 
 const components = [
   Skeleton,
