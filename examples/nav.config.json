@@ -1,8 +1,8 @@
 {
   "开发指南": [
     {
-      "name": "guid",
-      "path": "/guid",
+      "name": "giud",
+      "path": "/giud",
       "desc": "介绍"
     },
     {
@@ -35,6 +35,21 @@
           "desc": "Layout 布局",
           "name": "layout",
           "path": "/layout"
+        },
+        {
+          "desc": "Icon 图标",
+          "name": "icon",
+          "path": "/icon"
+        },
+        {
+          "desc": "Button 按钮",
+          "name": "button",
+          "path": "/button"
+        },
+        {
+          "desc": "Tag 标签",
+          "name": "tag",
+          "path": "/tag"
         }
       ]
     },
@@ -46,9 +61,33 @@
           "desc": "Showmore 显示更多",
           "name": "show-more",
           "path": "/showMore"
+        },
+        {
+          "desc": "Limit 限制输入域",
+          "name": "limit-textarea",
+          "path": "/limit"
+        },
+        {
+          "desc": "metaInfo 三要素",
+          "name": "meta-info",
+          "path": "/meta-info"
+        },
+        {
+          "desc": "alert 警告",
+          "name": "alert",
+          "path": "/alert"
+        },
+        {
+          "desc": "LoadingBar 加载进度条",
+          "name": "loading-bar",
+          "path": "/loadingBar"
+        },
+        {
+          "desc": "skeleton 骨架屏",
+          "name": "skeleton",
+          "path": "/skeleton"
         }
       ]
     }
   ]
-
 }

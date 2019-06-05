@@ -39,6 +39,23 @@ export default new Router({
       component: r => require.ensure([],()=>r(require('../docs/layout.md')))
     },
     {
+      path:'/Icon',
+      name:'icon',
+      component: r => require.ensure([],()=>r(require('../docs/icon.md')))
+    },
+    {
+      path:'/button',
+      name:'button',
+      component: r => require.ensure([],()=>r(require('../docs/button.md')))
+    },
+    {
+      path:'/tag',
+      name:'tag',
+      component: r => require.ensure([],()=>r(require('../docs/tag.md')))
+    },
+
+
+    {
       path:'/test',
       name:'test',
       component: r => require.ensure([],()=>r(require('../docs/test.md')))

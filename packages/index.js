@@ -1,12 +1,15 @@
 import Skeleton from './skeleton/index'
 import WCol from './col/index'
 import WRow from './row/index'
+import WButton from './button/index'
+import WTag from './button/index'
 
 const components = [
   Skeleton,
   WCol,
-  WRow
-
+  WRow,
+  WButton,
+  WTag
 ]
 
 const install =function (Vue) {
@@ -23,5 +26,7 @@ export default {
   install,
   WCol,
   WRow,
-  Skeleton
+  Skeleton,
+  WButton,
+  WTag
 }
