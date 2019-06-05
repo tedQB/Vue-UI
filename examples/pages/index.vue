@@ -6,7 +6,7 @@
     </div>
     <div class="separate-panel">
       <div class="about">
-        <router-link :to="{name: 'giud'}">开始使用</router-link>
+        <router-link :to="{name: 'guid'}">开始使用</router-link>
         <a target="_blank" class="btn-github" href="git@github.com:tedQB/Vue-UI.git">GitHub</a>
       </div>
     </div>

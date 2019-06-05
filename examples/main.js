@@ -3,12 +3,14 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import demoBlock from './components/demo-block.vue'
 import VUI from '../packages/index'
+import '../packages/theme-default/lib/index.css'
 
 
 Vue.config.productionTip = false
 
-console.log('VUI',VUI);
+Vue.component('demo-block',demoBlock)
 
 Vue.use(VUI);
 

@@ -38,6 +38,7 @@ export default{
     }
     ['span','offset','pull','push'].forEach(prop=>{
       if(this[prop]){
+        //console.log('prop',this[]);
         classList.push(
           prop!=='span'
             ?`w-col-${prop}-${this[prop]}`:`w-col-${this[prop]}`
