@@ -3,8 +3,15 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import VUI from '../packages/index'
+
 
 Vue.config.productionTip = false
+
+console.log('VUI',VUI);
+
+Vue.use(VUI);
+
 
 /* eslint-disable no-new */
 new Vue({
